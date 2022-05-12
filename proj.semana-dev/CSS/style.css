@@ -1,0 +1,214 @@
+html{
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.title{
+    font-size: 26px;  
+}
+header{
+    background-color: #1a3f5c;
+    text-align: center;
+    color: white;
+    padding: 10px; 
+    padding-bottom: 1px 
+}
+#head{
+    position: sticky;
+    top: 0px;  
+}
+nav{
+    background-color: #2dabf7;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.nav-btn{
+    display: inline-block;
+    margin-left: 25px;
+    padding: 3px;
+    
+    color: white;
+    font-weight: bold;
+}
+h2{
+    font-size: 16px;
+}
+.form_container{
+    float: right;
+    background-color: #1a3f5cbb;
+    max-width: 230px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form_container p, .form_container h2{
+    color: white;
+    text-align: left;
+}
+.space_bottom{
+    margin-bottom: 15px;
+}
+select, input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+input[type=submit]{
+    color: white;
+    background-color: #2dabf7;
+    font-weight: bold;
+    font-size: medium;
+}
+input:active[type=submit]{
+    color: #2dabf7;
+    background-color: white;
+}
+#sec_1{
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    overflow: auto;
+    padding: 20px;
+}
+#sec_2{
+    background-color: rgb(88, 28, 28);
+    text-align: center;
+}
+#info_prof{
+    background-color: #1a3f5c;
+    padding: 3px;
+    border: 1px solid #2dabf7;
+    max-width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.17em;
+    color: white; 
+}
+.pic_prof{
+    width: 160px;
+    margin-top: 20px;
+    border: 2px solid orange;
+}
+.prof_descrip{
+    display: inline-block;
+    max-width: 49%;
+    text-align: left;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.prof_descrip h3, .prof_descrip p{
+    width: 100%;
+    margin-bottom: 6px;
+}
+footer{
+    background-color: #2d093d;
+    max-width: 1000px; 
+    border-bottom: 2px solid orange; 
+}
+#foot_border{
+    background-color: brown;
+    padding: 3px;
+    border: 1px solid orange;
+    max-width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.17em;
+    color: white;
+}
+#foot_padding{  
+    padding: 10px;
+}
+.soc_name{
+    color: white;
+    text-shadow: 0px 0px 3px #f2601d, 0 0 6px #f8ab16;
+    list-style: none;
+}
+.soc_link{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 3px #f2601d, 0 0 6px #f8ab16;
+}
+.soc_logo{
+    width: 56px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 500px){
+    nav{
+        background-color: #27608b;
+        border: 2px solid rgb(199, 131, 5);
+        border-radius: 5px;
+        padding: 1px;
+        }
+    .nav-btn{
+        display: block;
+        
+        margin-left: 0px;
+        color: white;
+        font-weight: bold;
+        padding: 3px;
+    }
+    .nav-btn:hover{
+        background-color: #227ab1;
+    }
+    .nav-btn:active{
+        background-color: #227ab1;
+    }
+    .form_container{
+        background-color: #1a3f5cbb;
+        max-width: 500px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .pic_prof{
+        display: block;
+        margin:auto;
+        width: 160px;
+        margin-top: 20px;
+        border: 2px solid orange;
+        border-radius: 80px;
+    }
+    .prof_descrip{
+        display: inline-block;
+        max-width: 80%;
+        text-align: left;
+        color: white;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer ul{
+        display: inline-block;
+        margin-left: 25%;
+    }
+    
+}
+
+
+
+

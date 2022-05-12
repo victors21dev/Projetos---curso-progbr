@@ -1,2 +1,2 @@
 # Projetos---curso-progbr
- Projetos propostos no curso do prof. Igor Oliveiera, o ProgramadorBR.
+ Projetos propostos no curso do prof. Igor Oliveira, o ProgramadorBR.
